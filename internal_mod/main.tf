@@ -1,9 +1,9 @@
-variable "varA" {
+variable "varB" {
   type = string
 }
 
 output "resultA" {
-	value = var.varA
+	value = var.varB
 }
 
 terraform {
